@@ -1,0 +1,19 @@
+{% from "form/_formhelpers.html" import render_field %}
+{% extends "base_t.html" %}
+{% block content %}
+    <h2>Welcome, please login</h2>
+    <form action="" method="post">
+        <table>
+            {{ render_field(form.username, class="form-control") }}
+            {{ render_field(form.password, class="form-control") }}
+            {% if error %}
+            <tr>
+                <td><p class="alert alert-danger"> {{ error }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <td><input class="btn btn-primary" type="submit" value="Login"></td>
+            </tr>
+        </table>
+    </form>
+{% endblock %}
