@@ -1,5 +1,4 @@
-# COMP639S1_Project_2_Group_AQ 
-## AgriHire Solutions Equipment and Order Management System
+# AgriHire Solutions Equipment and Order Management System
 
 ## New proposed packages
 ### WTForms
@@ -21,8 +20,7 @@ Examples are included in the initial commit.
 Simply click `Code` and `Open with GitHub Desktop`, and save repo to your preferred location.
 
 #### 1.2 Using command line
-1. Nagivate to where you would like to save the repo by using `cd your/path/`
-2. `git clone https://github.com/LUMasterOfAppliedComputing2024S1/COMP639S1_Project_2_Group_AQ.git`
+Nagivate to where you would like to save the repo by using `cd your/path/`
 
 ### 2. Config `connect.py`
 Create `connect.py` under `eoms` folder with your database configuration. (sql script to create database will be provided later)
